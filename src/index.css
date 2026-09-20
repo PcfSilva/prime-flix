@@ -3,3 +3,14 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+html {
+  background: #2b2727;
+  height: 100%;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
