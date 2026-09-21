@@ -2,6 +2,8 @@ import { useEffect, useState } from "react"
 import { useParams } from "react-router"
 import api from '../../services/api'
 
+import "./movies.css"
+
 export function Movies() {
   const [movie, setMovie] = useState({})
   const [loading, setLoading] = useState(true)

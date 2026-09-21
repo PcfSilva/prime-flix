@@ -1,0 +1,20 @@
+.movie-details {
+  width: 50%;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.movie-details img {
+  margin-block: 18px;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.movie-details h3 {
+  font-size: 38px;
+}
+
+.movie-details p {
+  margin-block: 12px;
+  font-size: 18px;
+}
