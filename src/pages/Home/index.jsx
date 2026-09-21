@@ -34,7 +34,7 @@ export function Home() {
       {movies.map((movie) => (
         <article key={movie.id}>
           <strong className='title'>{movie.title}</strong>
-          <img className='image' src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`} alt="" />
+          <img className='image' src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} alt="" />
           <Link className='btn-access' to={`/movies/${movie.id}`}>Acessar</Link>
         </article>
       ))}
