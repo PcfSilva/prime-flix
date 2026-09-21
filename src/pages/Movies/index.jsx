@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { useParams } from "react-router"
+import { Link, useParams } from "react-router"
 import api from '../../services/api'
 
 import "./movies.css"
@@ -36,6 +36,11 @@ export function Movies() {
       <strong>
         Avaliação: {movie.vote_average} / 10
       </strong>
+
+      <div className="btn-area">
+        <button>Salvar</button>
+        <Link>Trailer</Link>
+      </div>
     </div>
   )
 }
